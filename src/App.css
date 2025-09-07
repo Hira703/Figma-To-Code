@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333; /* primary text */
+  background-color: #DFE9F4; /* page background */
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 1.5rem; /* 24px */
+  padding-right: 1.5rem;
+}
+:root {
+  --primary: #054C73;        /* main brand color */
+  --accent: #DFE9F4;         /* light background */
+  --text-primary: #333333;   /* heading text */
+  --text-secondary: #666666; /* body text / section bg */
+}
